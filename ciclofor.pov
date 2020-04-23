@@ -8,7 +8,7 @@ camera {
     location  < 0 , 1 , - 10 >
     look_at  < 0 + walk_camera , 1 , 5 >
     }
-source_light {
+light_source {
     < 2 ,  10 ,  - 3 >
     color  Blue
     area_light  <5,0,0>,<0,0,5>,5,5
@@ -34,7 +34,7 @@ sphere {
 #end  
  
   
-airplane  {
+plane  {
     y ,  - 1
     texture  {
 	    pigment {
@@ -50,7 +50,7 @@ airplane  {
     }
   }
  
- airplane {
+ plane {
     x ,  - 10
     texture  {
 	    pigment {
@@ -65,7 +65,7 @@ airplane  {
       }
     }
   }
-airplane {
+plane {
     z ,  10
     texture  {
 	    pigment {
