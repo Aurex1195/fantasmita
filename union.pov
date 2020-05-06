@@ -1,5 +1,5 @@
 
-#include «rama_pino.inc»
+
 #declare Luz=light_source { <30, 60, -40> color Gray50 }
 #declare CameraUp= camera {
 location <8, 30, -40>
